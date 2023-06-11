@@ -37,7 +37,6 @@ export default class MyDocument extends Document {
                     {/* Favicon */}
                     <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon"/>
                     {/* General */}
-                    <title>Game Online</title>
                     <meta name="twitter:site" content="@MglPenha"/>
                     <meta name="twitter:creator" content="@MglPenha"/>
                     <meta property="og:title" content="Game Online"/>

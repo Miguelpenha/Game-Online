@@ -124,6 +124,10 @@ export const ContainerMessage = styled.li<IContainerMessage>`
 export const HeaderMessage = styled.div`
     display: flex;
     justify-content: space-between;
+
+    @media screen and (max-width: 900px) {
+        flex-direction: column;
+    }
 `
 
 export const UserMessage = styled.span`
@@ -131,6 +135,7 @@ export const UserMessage = styled.span`
     color: ${props => props.theme.secondaryColor};
 
     @media screen and (max-width: 900px) {
+        order: 1;
         font-size: 0.8em;
     }
 `
@@ -180,6 +185,10 @@ export const ContainerReply = styled.button<IContainerReply>`
 export const Reply = styled.svg`
     width: 2.2em;
     fill: ${props => props.theme.primary};
+
+    @media screen and (max-width: 900px) {
+        width: 1.8em;
+    }
 `
 
 export const ContainerDelete = styled.button<IContainerReply>`
@@ -206,4 +215,8 @@ export const ContainerDelete = styled.button<IContainerReply>`
 export const Delete = styled.svg`
     width: 2.2em;
     fill: ${props => props.theme.primary};
+
+    @media screen and (max-width: 900px) {
+        width: 1.8em;
+    }
 `
