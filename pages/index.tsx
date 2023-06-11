@@ -47,7 +47,15 @@ function Home() {
         return <>
             <Head>
                 <title>Game Online</title>
-            </Head>
+                <meta name="twitter:site" content="@MglPenha"/>
+                <meta name="twitter:creator" content="@MglPenha"/>
+                <meta property="og:title" content="Game Online"/>
+                <meta name="description" content="Um Game Online"/>
+                <meta name="twitter:card" content="summary_large_image"/>
+                <meta property="og:description" content="Um Game Online"/>
+                <meta property="og:url" content="https://game-online.vercel.app"/>
+                <meta property="og:image" content="https://game-online.vercel.app/img/thumbnail.png"/>
+                </Head>
             <Container>
                 <Title>Game Online</Title>
                 <Description>Olá <span className='username'>{user.name}</span>, vamos começar?</Description>

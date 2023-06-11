@@ -1,6 +1,6 @@
 {
-  "name": "josival-penha-front-end",
-  "description": "Front-end do Josival Penha",
+  "name": "game-online",
+  "description": "Um Game Online",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
