@@ -99,7 +99,7 @@ interface IContainerMessage {
 }
 
 export const ContainerMessage = styled.li<IContainerMessage>`
-    width: 90%;
+    width: 95%;
     display: flex;
     padding: 0.4em;
     font-size: 1.5em;
