@@ -129,11 +129,19 @@ export const HeaderMessage = styled.div`
 export const UserMessage = styled.span`
     font-size: 1em;
     color: ${props => props.theme.secondaryColor};
+
+    @media screen and (max-width: 900px) {
+        font-size: 0.8em;
+    }
 `
 
 export const DateMessage = styled.span`
     font-size: 1em;
     color: ${props => props.theme.secondaryColor};
+
+    @media screen and (max-width: 900px) {
+        font-size: 0.8em;
+    }
 `
 
 export const Message = styled.span`
