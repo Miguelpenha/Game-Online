@@ -70,7 +70,6 @@ interface IReplyMessage {
 }
 
 export const ReplyMessage = styled.a<IReplyMessage>`
-    width: 50%;
     display: flex;
     padding: 0.4em;
     cursor: pointer;
