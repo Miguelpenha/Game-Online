@@ -105,6 +105,7 @@ export const ContainerMessage = styled.li<IContainerMessage>`
     font-size: 1.5em;
     list-style: none;
     position: relative;
+    padding-bottom: 2em;
     border-radius: 10px;
     flex-direction: column;
     border: 2px solid ${props => props.theme.backgroundColorSecondary};
