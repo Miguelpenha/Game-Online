@@ -36,7 +36,7 @@ export default class MyDocument extends Document {
                     <link href="https://fonts.googleapis.com/css2?family=Changa:wght@200;300;400;500;600;700;800&family=Press+Start+2P&display=swap" rel="stylesheet"/>
                     {/* Favicon */}
                     <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon"/>
-                    {/* SEO */}
+                    {/* General */}
                     <title>Game Online</title>
                     <meta name="twitter:site" content="@MglPenha"/>
                     <meta name="twitter:creator" content="@MglPenha"/>
